@@ -27,7 +27,8 @@
     "url": "https://github.com/Truemedia/salutation-lex/issues"
   },
   "homepage": "https://github.com/Truemedia/salutation-lex#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "greeting": "^1.0.6",
     "lemme-lex": "^0.3.0",
     "parting": "^1.0.6"
