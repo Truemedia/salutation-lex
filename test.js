@@ -1,3 +1,4 @@
-const lex = require('./src/index');
+const SalutationLex = require('./src/index');
 
-console.log(lex);
+console.log('british', new SalutationLex());
+console.log('japanese', new SalutationLex('ja_JP'));

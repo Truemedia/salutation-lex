@@ -21,5 +21,7 @@ Yarn
 
 ### As dependency
 ```js
-const Lex = require('salutation-lex');
+const SalutationLex = require('salutation-lex');
+let lex = new SalutationLex();
+console.log(lex); // Will output class instance using lemme-lex
 ```
