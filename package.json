@@ -2,6 +2,7 @@
   "name": "salutation-lex",
   "version": "1.1.0",
   "description": "A lexicon for arrival and departure salutations",
+  "bin": "src/cli.js",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -31,6 +32,7 @@
   "dependencies": {
     "greeting": "^1.0.6",
     "lemme-lex": "^0.4.1",
-    "parting": "^1.0.6"
+    "parting": "^1.0.6",
+    "yargs": "^13.2.2"
   }
 }
